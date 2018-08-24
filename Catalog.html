@@ -26,41 +26,37 @@
 		<h2 class="visually-hidden">Фильтр шаблонов</h2>
 		<!-- Будет форма -->
 <form>
-  <div>
-    <label>Стоимость:<br>
-      <input type="range" name="range">
-    </label><br>
-    <label>от
-      <input type="number" value="0">
-    </label>
-    <label>до
-      <input type="number" value="15 000">
-    </label>
-    <div>Сетка<br>
-      <label>
-        <input type="radio" name="adaptive" checked>Адаптивная
-      </label><br>
-      <label>
-        <input type="radio" name="fixed">Фиксированная
-      </label><br>
-      <label>
-        <input type="radio" name="flexible">Резиновая
-      </label><br>
-    </div>
-    <div>
-    </div>
-  </div>
+<div class="filter-range">
+  <label>Стоимость:<br><input type="range" name="range" min="0" max="15000"></label><br>
+  <label>от <input type="number" value="0"></label>
+  <label>до <input type="number" value="15000"></label>
+</div>
+<div class="filter-grid">Сетка<br>
+  <label><input type="radio" name="adaptive" checked>Адаптивная</label><br>
+  <label><input type="radio" name="fixed">Фиксированная</label><br>
+  <label><input type="radio" name="flexible">Резиновая</label><br>
+</div>
+<div class="filter-features">
+  <label><input type="checkbox" name="slider" checked>Слайдер</label><br>
+  <label><input type="checkbox" name="block-features">Блок преимуществ</label><br>
+  <label><input type="checkbox" name="news" checked>Новости</label><br>
+  <label><input type="checkbox" name="gallery">Галерея</label><br>
+  <label><input type="checkbox" name="cart">Корзина</label>
+</div>
+<div class="filter-submit">
+  <label><input type="submit" name="submit" value="Показать"></label>
+</div>
 </form>
 </section>
 <section class="catalog">
 	<h2 class="visually-hidden">Список готовых шаблонов</h2>
 	<ul class="catalog-list">
-		<li class="catalog-item"><img src="img/browser.svg" alt="browser symbol"><a href="#"><img src="img/catalog/img-sedona.jpg" alt="Шаблон Sedona"></a></li>
-		<li class="catalog-item"><img src="img/browser.svg" alt="browser symbol"><a href="#"><img src="img/catalog/img-pink.jpg" alt="Шаблон Pink"></a></li>
-		<li class="catalog-item"><img src="img/browser.svg" alt="browser symbol"><a href="#"><img src="img/catalog/img-barbershop.jpg" alt="Шаблон Барбершоп Бородинский"></a></li>
-		<li class="catalog-item"><img src="img/browser.svg" alt="browser symbol"><a href="#"><img src="img/catalog/img-mishka.jpg" alt="Шаблон Mishka"></a></li>
-		<li class="catalog-item"><img src="img/browser.svg" alt="browser symbol"><a href="#"><img src="img/catalog/img-aplus.jpg" alt="Шаблон Обучение"></a></li>
-		<li class="catalog-item"><img src="img/browser.svg" alt="browser symbol"><a href="#"><img src="img/catalog/img-kvast.jpg" alt="Шаблон Кваст"></a></li>
+		<li class="catalog-item"><img src="img/browser.svg" alt="browser symbol"><a href="#"><img src="img/catalog/img-sedona.jpg" width="360" height="576" alt="Шаблон Sedona" title="Шаблон Sedona"></a></li>
+		<li class="catalog-item"><img src="img/browser.svg" alt="browser symbol"><a href="#"><img src="img/catalog/img-pink.jpg" width="360" height="576" alt="Шаблон Pink" title="Шаблон Pink"></a></li>
+		<li class="catalog-item"><img src="img/browser.svg" alt="browser symbol"><a href="#"><img src="img/catalog/img-barbershop.jpg" width="360" height="576" alt="Шаблон Барбершоп Бородинский" title="Шаблон Барбершоп Бородинский"></a></li>
+		<li class="catalog-item"><img src="img/browser.svg" alt="browser symbol"><a href="#"><img src="img/catalog/img-mishka.jpg" width="360" height="576" alt="Шаблон Mishka" title="Шаблон Mishka"></a></li>
+		<li class="catalog-item"><img src="img/browser.svg" alt="browser symbol"><a href="#"><img src="img/catalog/img-aplus.jpg" width="360" height="576" alt="Шаблон Обучение" title="Шаблон Обучение"></a></li>
+		<li class="catalog-item"><img src="img/browser.svg" alt="browser symbol"><a href="#"><img src="img/catalog/img-kvast.jpg" width="360" height="576" alt="Шаблон Кваст" title="Шаблон Кваст"></a></li>
 	</ul>
 	<ul class="pagination-list">
 		<li class="pagination-item pagination-item-current">1</li>
@@ -71,6 +67,7 @@
 	</section>
 	<hr><!-- В дальнейшем этот тег будет удален -->
 	<section class="contacts">
+    <h2 class="visually-hidden">Контакты</h2>
 	<!-- Данные на карте
 	  <div class="contacts-adress">
 	    <h3>Nerds Design Studio</h3>
@@ -85,9 +82,9 @@
 	</main>
 	<footer>
 	<ul>
-	  <li> <a href="#"><img src="img/vk-icon.svg" alt="Vkontakte"></a></li>
-	  <li> <a href="#"><img src="img/fb-icon.svg" alt="Facebook"></a></li>
-	  <li> <a href="#"><img src="img/insta-icon.svg" alt="Instagram"></a></li>
+	  <li> <a href="#"><img src="img/vk-icon.svg" alt="Vkontakte" title="Мы в Контакте"></a></li>
+	  <li> <a href="#"><img src="img/fb-icon.svg" alt="Facebook" title="Мы в Facebook"></a></li>
+	  <li> <a href="#"><img src="img/insta-icon.svg" alt="Instagram" title="Мы в Instagram"></a></li>
 	</ul>
 	<div>
 	<p><b>Давайте дружить, это выгодно!</b></p>
