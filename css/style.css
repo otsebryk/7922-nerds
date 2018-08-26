@@ -1,0 +1,96 @@
+body {
+
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  line-height: 24px;
+  font-size: 16px;
+  color: #283136;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+
+  font-size: 16px;
+  font-weight: medium;
+  color: #000000;
+  line-height: 30px;
+
+}
+.site-navigation,
+.cart-navigation,
+.all-partners-list,
+.our-social-net,
+.catalog-list,
+.pagination-list {
+  list-style: none;
+}
+
+.site-navigation,
+.cart-navigation {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.cart-navigation a:hover,
+.cart-navigation a:focus {
+  color: #fb565a;
+}
+
+.site-navigation a:active,
+.cart-navigation a:active {
+  color: #b9b9b9;
+}
+
+.learn-more,
+.buy-site {
+  color: #ffffff;
+  background-color: #fb565a;
+  font-size: 16px;
+  text-transform: none;
+}
+
+.buy-apps {
+  color: #ffffff;
+  background-color: #00ca74;
+  font-size: 16px;
+  text-transform: none;
+}
+
+.buy-presentation {
+  color: #ffffff;
+  background-color: #efc84a;
+}
+
+p {
+  color: #283136;
+  text-transform: none;
+  line-height: 24px;
+}
+
+.slogan {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: medium;
+}
+
+.be-freinds {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+}
+ label {
+   color: #283136;
+   font-size: 16px;
+   line-height: 20px;
+   text-transform: none;
+
+ }
