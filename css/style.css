@@ -4,23 +4,47 @@ body {
   padding: 0;
 
   font-family: "Roboto", Arial, sans-serif;
-  line-height: 24px;
+  font-weight: normal;
   font-size: 16px;
   color: #283136;
-  text-transform: uppercase;
+  text-transform: none;
+  line-height: 24px;
 
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 a {
   text-decoration: none;
 }
 
+h3 {
+  text-transform: uppercase;
+}
+
+h4 {
+  text-transform: uppercase;
+}
+
+p {
+  color: #283136;
+  text-transform: none;
+  line-height: 24px;
+}
+
+caption {
+  text-transform: uppercase;
+  font-weight: bold;
+
+  line-height: 24px;
+  margin-bottom: 45px;
+}
+
 .main-navigation {
 
-  font-size: 16px;
-  font-weight: medium;
+  font-weight: 500;
   color: #000000;
+  text-transform: uppercase;
+
   line-height: 30px;
 
 }
@@ -52,34 +76,39 @@ a {
 
 .learn-more,
 .buy-site {
-  color: #ffffff;
+  color: #fff;
+  text-transform: uppercase;
+
   background-color: #fb565a;
-  font-size: 16px;
-  text-transform: none;
+
 }
 
 .buy-apps {
-  color: #ffffff;
+  color: #fff;
+  text-transform: uppercase;
+
   background-color: #00ca74;
-  font-size: 16px;
-  text-transform: none;
 }
 
 .buy-presentation {
-  color: #ffffff;
+  color: #fff;
+  text-transform: uppercase;
+  
   background-color: #efc84a;
-}
-
-p {
-  color: #283136;
-  text-transform: none;
-  line-height: 24px;
 }
 
 .slogan {
   font-size: 55px;
   line-height: 55px;
-  font-weight: medium;
+  font-weight: 500;
+}
+
+.table-data-percents {
+  font-weight: bold;
+  font-size: 45px;
+
+  line-height: 10,06px;
+  margin-bottom: 24px;
 }
 
 .be-freinds {
@@ -87,10 +116,17 @@ p {
   line-height: 36px;
   font-weight: bold;
 }
- label {
-   color: #283136;
-   font-size: 16px;
-   line-height: 20px;
-   text-transform: none;
 
- }
+.filter-uppercase {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.pagination-list {
+  line-height: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.visually-hidden {
+  visibility: hidden;
+}
