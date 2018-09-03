@@ -59,6 +59,8 @@ caption {
 
 .site-navigation,
 .cart-navigation {
+  margin: 0;
+  padding: 0;
   color: #000000;
 }
 
@@ -93,7 +95,7 @@ caption {
 .buy-presentation {
   color: #fff;
   text-transform: uppercase;
-  
+
   background-color: #efc84a;
 }
 
@@ -129,4 +131,60 @@ caption {
 }
 .visually-hidden {
   visibility: hidden;
+}
+/* ----------          GRID CLASSES          ---------- */
+
+/* ----------            navigation          ---------- */
+.main-navigation {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+}
+.site-navigation {
+  width: 440px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.cart-navigation {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ----------          main page          ---------- */
+
+.container {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+
+}
+.main-promo {
+  display: flex;
+  flex-direction: row;
+}
+.offers {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-company {
+  display: flex;
+  flex-direction: row;
+}
+
+.partners {
+  display: flex;
+  flex-direction: row;
+}
+
+.all-partners-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
