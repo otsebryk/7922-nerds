@@ -28,6 +28,7 @@
 <section class="filters">
 		<h2 class="visually-hidden">Фильтр шаблонов</h2>
 		<!-- Будет форма -->
+<div class="form-catalog"> <!-- основной флекс блок для фильтра и каталога -->
 <form>
 <div class="filter-range">
   <label><span class="filter-uppercase">Стоимость</span>:<br><input type="range" name="range" min="0" max="15000"></label><br>
@@ -53,7 +54,8 @@
 </section>
 <section class="catalog">
 	<h2 class="visually-hidden">Список готовых шаблонов</h2>
-	<ul class="catalog-list">
+<div class="catalog-item-container">
+  <ul class="catalog-list">
 		<li class="catalog-item"><img src="img/browser.svg" alt="browser symbol"><a href="#"><img src="img/catalog/img-sedona.jpg" width="360" height="576" alt="Шаблон Sedona" title="Шаблон Sedona"></a></li>
 		<li class="catalog-item"><img src="img/browser.svg" alt="browser symbol"><a href="#"><img src="img/catalog/img-pink.jpg" width="360" height="576" alt="Шаблон Pink" title="Шаблон Pink"></a></li>
 		<li class="catalog-item"><img src="img/browser.svg" alt="browser symbol"><a href="#"><img src="img/catalog/img-barbershop.jpg" width="360" height="576" alt="Шаблон Барбершоп Бородинский" title="Шаблон Барбершоп Бородинский"></a></li>
@@ -67,7 +69,9 @@
 		<li class="pagination-item">3</li>
 		<li class="pagination-item">Следующая</li>
 	</ul>
+</div>
 	</section>
+</div>
 	<hr><!-- В дальнейшем этот тег будет удален -->
 	<section class="contacts">
     <h2 class="visually-hidden">Контакты</h2>
@@ -83,15 +87,18 @@
 	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15988.035052576302!2d30.30625044968861!3d59.940365840104974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5afc31%3A0x5f2ac55f567b2400!2sHTML+Academy!5e0!3m2!1sru!2sua!4v1534090363708" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</section>
 	</main>
-	<footer>
-	<ul class="our-social-net">
-	  <li> <a href="#"><img src="img/vk-icon.svg" alt="Vkontakte" title="Мы в Контакте"></a></li>
-	  <li> <a href="#"><img src="img/fb-icon.svg" alt="Facebook" title="Мы в Facebook"></a></li>
-	  <li> <a href="#"><img src="img/insta-icon.svg" alt="Instagram" title="Мы в Instagram"></a></li>
-	</ul>
-	<div>
-	<p><span class="be-freinds">Давайте дружить, это выгодно!</span></p>
-	<p>Скидка 10% для друзей из социальных сетей.</p>
-	</div>
-</footer>
+  <footer>
+    <div class="footer-containter">
+    <ul class="our-social-net">
+      <li> <a href="#"><img src="img/vk-icon.svg" alt="Vkontakte" title="Мы в Контакте"></a></li>
+      <li> <a href="#"><img src="img/fb-icon.svg" alt="Facebook" title="Мы в Facebook"></a></li>
+      <li> <a href="#"><img src="img/insta-icon.svg" alt="Instagram" title="Мы в Instagram"></a></li>
+    </ul>
+  <div>
+    <p><span class="be-freinds">Давайте дружить, это выгодно!</span></p>
+    <p>Скидка 10% для друзей из социальных сетей.</p>
+  </div>
+  </div>
+  </footer>
 </body>
+</html>
