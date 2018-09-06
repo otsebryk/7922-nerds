@@ -24,12 +24,48 @@
    </nav>
   </header>
 <main class="container">
-	<h1 class="page-title">Магазин готовых шаблонов</h1>
+  <div class="name-catalog">
+  <h1 class="page-title">Магазин готовых шаблонов</h1>
+  </div>
 <section class="filters">
 		<h2 class="visually-hidden">Фильтр шаблонов</h2>
 		<!-- Будет форма -->
 <div class="form-catalog"> <!-- основной флекс блок для фильтра и каталога -->
-<form>
+<form method="get">
+  <fieldset class="filter-item"><!-- Группировка элементов формы -->
+    <legend>Стоимость:</legend> <!-- Заголовок группы элементов формы -->
+      <div class="range-filter"> <!-- Обертка для фильтра цены -->
+         <div class="range-controls"> <!-- Ползунки -->
+           <div class="scale"> <!-- Ширина прогресс бара -->
+             <div class="bar" style="margin-left: 20%; width: 30%"> <!--  Выбранный диапозон -->
+             </div>
+           </div>
+            <div class="toggle toggle-min"></div> <!-- Ползунок мин -->
+            <div class="toggle toggle-max"></div> <!-- Ползунок макс-->
+         </div>
+         <div class="price-controls"> <!-- Ввод цены-->
+           <label class="min-price">от <input name="min-price" type="text" value="0"></label> <!-- Минимальная цена-->
+           <label class="max-price">до <input name="max-price" type="text" value="15000"></label><!-- Максимальная цена -->
+         </div>
+      </div>
+  </fieldset>
+  <div class="filter-grid"><span class="filter-uppercase">Сетка</span><br>
+    <label><input type="radio" name="adaptive" checked>Адаптивная</label><br>
+    <label><input type="radio" name="fixed">Фиксированная</label><br>
+    <label><input type="radio" name="flexible">Резиновая</label><br>
+  </div>
+  <div class="filter-features"><span class="filter-uppercase">Особенности</span><br>
+    <label><input type="checkbox" name="slider" checked>Слайдер</label><br>
+    <label><input type="checkbox" name="block-features">Блок преимуществ</label><br>
+    <label><input type="checkbox" name="news" checked>Новости</label><br>
+    <label><input type="checkbox" name="gallery">Галерея</label><br>
+    <label><input type="checkbox" name="cart">Корзина</label>
+  </div>
+  <div class="filter-submit">
+    <label><input type="submit" name="submit" value="Показать"></label>
+  </div>
+</form>
+<!-- <form>
 <div class="filter-range">
   <label><span class="filter-uppercase">Стоимость</span>:<br><input type="range" name="range" min="0" max="15000"></label><br>
   <label>от <input type="number" value="0"></label>
@@ -50,7 +86,7 @@
 <div class="filter-submit">
   <label><input type="submit" name="submit" value="Показать"></label>
 </div>
-</form>
+</form> -->
 </section>
 <section class="catalog">
 	<h2 class="visually-hidden">Список готовых шаблонов</h2>
