@@ -38,6 +38,9 @@ caption {
   line-height: 24px;
   margin-bottom: 45px;
 }
+form {
+  width: 440px;
+}
 .main-header, .main-promo {
   background-color: #eee;
 }
@@ -133,8 +136,9 @@ caption {
 }
 
 .name-catalog {
-width: 1200px;
+width: 100%;
 height:220px;
+margin-bottom: 60px;
 background-color: #eee;
 text-align: center;
 
@@ -153,7 +157,28 @@ text-align: center;
 	height: 1px;
 	width: 1px;
 	overflow: hidden;
+
 }
+.our-social-net {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 10px;
+
+}
+.social-net a {
+  display: block;
+  position: relative;
+
+}
+.social-net {
+  width: 64px;
+  height: 64px;
+  background-color: #e1e1e1;
+  border: 1px;
+  border-radius: 50px;
+  align-items: center;
+  }
 /* ----------          GRID CLASSES          ---------- */
 
 /* ----------            navigation          ---------- */
@@ -243,32 +268,60 @@ text-align: center;
   margin: 0 auto;
 }
 
-/* main catalog */
+/* CATALOG */
 
 .form-catalog {
   width: 1200px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
   margin: 0 auto;
 }
 
 .catalog-item-container {
   display: flex;
+  width:auto;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
   margin: 0 auto;
 }
 .catalog-list {
+  width: 360px;
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
   margin: 0 auto;
+  align-items: center;
+}
+.catalog-item a {
+  display: block;
+  position: relative;
+}
+.catalog-item a::before {
+  content: '';
+  position:absolute;
+  top: -40px;
+  left: 0;
+  height: 40px;
+  width: 100%;
+  background-color: #fff;
+  background-image: url(../img/browser.svg);
 }
 
+.pagination-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.pagination-item {
+
+  display: flex;
+  height: 50px;
+  background-color: #eeeeee;
+  margin: 0 10px;
+  padding: 0 20px;
+  align-items: center;
+
+}
 /* ----------          FILTER CATALOG          ---------- */
 
 .filter-item {
