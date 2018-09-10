@@ -147,10 +147,11 @@ text-align: center;
   line-height: 18px;
   font-weight: 500;
   text-transform: uppercase;
+  margin-top: 60px;
 }
 .visually-hidden {
   position: absolute;
-	clip: rect(1px 1px 1px 1px); / IE6, IE7 /
+	clip: rect(1px 1px 1px 1px);
 	clip: rect(1px, 1px, 1px, 1px);
 	padding:0;
 	border:0;
@@ -203,19 +204,10 @@ text-align: center;
 }
 
 /* ----------          main page          ---------- */
-
-.container {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-
-}
 .main-promo-container {
-  width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
 
 }
 .flex-slogan {
@@ -224,11 +216,9 @@ text-align: center;
   align-items: center;
 }
 .offers-container {
-  width:1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
   padding-top: 130px;
   border-bottom: 2px solid #eee;
 }
@@ -238,11 +228,9 @@ text-align: center;
   padding-top:5px;
 }
 .about-company-container {
-  width: 1200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
   padding-top: 40px;
   padding-bottom: 80px;
   border-bottom: 2px solid #eee;
@@ -255,42 +243,36 @@ text-align: center;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  padding-left: 0;
 
   border-bottom: 2px solid #eee;
 }
 
 .footer-containter {
-  width: 1200px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
 }
 
 /* CATALOG */
 
-.form-catalog {
-  width: 1200px;
+.catalog {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
+  margin-bottom: 60px;
 }
-
-.catalog-item-container {
+.form-catalog {
   display: flex;
-  width:auto;
-  flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end;
-  margin: 0 auto;
 }
 .catalog-list {
-  width: 360px;
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  align-items: center;
+  width: 760px;
+  flex-wrap: wrap;
+
+}
+.filters {
+  width: 260px;
 }
 .catalog-item a {
   display: block;
@@ -311,6 +293,7 @@ text-align: center;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  width: 44px;
 }
 .pagination-item {
 
@@ -416,4 +399,14 @@ text-align: center;
 
 .max-price {
   text-align: right;
+}
+
+.catalog .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+width: 1200px;
+margin: 0 auto;
 }
