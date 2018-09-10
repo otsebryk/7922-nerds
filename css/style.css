@@ -273,6 +273,9 @@ text-align: center;
 .filters {
   width: 260px;
 }
+.catalog-item {
+  margin-bottom: 80px;
+}
 .catalog-item a {
   display: block;
   position: relative;
