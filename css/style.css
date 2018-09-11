@@ -17,34 +17,12 @@ a {
   text-decoration: none;
 }
 
-h3 {
-  text-transform: uppercase;
-}
-
-h4 {
-  text-transform: uppercase;
-}
-
-p {
-  color: #283136;
-  text-transform: none;
-  line-height: 24px;
-}
-
-caption {
-  text-transform: uppercase;
-  font-weight: bold;
-
-  line-height: 24px;
-  margin-bottom: 45px;
-}
-form {
-  width: 440px;
-}
 .main-header, .main-promo {
   background-color: #eee;
 }
-
+.main-header {
+  padding-top: 50px;
+}
 .main-navigation {
 
   font-weight: 500;
@@ -65,8 +43,14 @@ form {
 
 .site-navigation,
 .cart-navigation {
-  margin: 0;
-  padding: 0;
+  margin-top: 22px;
+}
+.site-navigation {
+  padding: 0 42px 0 0px;
+}
+
+.site-navigation a,
+.cart-navigation a{
   color: #000000;
 }
 
@@ -81,38 +65,33 @@ form {
 .cart-navigation a:active {
   color: #b9b9b9;
 }
-
+.btn {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 16px 41px;
+  border-radius: 2px;
+}
+.learn-more {
+  padding: 16px 54px;
+}
 .learn-more,
 .buy-site {
   color: #fff;
-  text-transform: uppercase;
-
   background-color: #fb565a;
-
 }
 
 .buy-apps {
-  color: #fff;
-  text-transform: uppercase;
-
   background-color: #00ca74;
 }
 
 .buy-presentation {
-  color: #fff;
-  text-transform: uppercase;
-
   background-color: #efc84a;
 }
-.buy-button {
-  width: 160px;
-  height: 50px;
-}
-}
+
 .slogan {
   font-size: 55px;
   line-height: 55px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .table-data-percents {
@@ -183,25 +162,35 @@ text-align: center;
 
 /* ----------            navigation          ---------- */
 .main-navigation {
-  width: 1200px;
+  width: 1160px;
   display: flex;
   margin: 0 auto;
+  justify-content: space-between;
 }
 .site-navigation {
   width: 440px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
 }
 
 .cart-navigation {
-  width: 120px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
+.cart-navigation li {
+  position: relative;
+}
 
+.cart-navigation li::before {
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 6px;
+  left: -42px;
+  background-image: url(../img/cart-icon.svg);
+}
 /* ----------          main page          ---------- */
 .main-promo-container {
   display: flex;
@@ -218,7 +207,7 @@ text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 130px;
+  padding: 80px 60px 80px 0;
   border-bottom: 2px solid #eee;
 }
 .offers-site, .offers-apps, .offers-presentation {
@@ -236,7 +225,7 @@ text-align: center;
 }
 
 .all-partners-list {
-  width: 1200px;
+  width: 1160px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -411,6 +400,6 @@ text-align: center;
 }
 
 .container {
-width: 1200px;
+width: 1160px;
 margin: 0 auto;
 }
