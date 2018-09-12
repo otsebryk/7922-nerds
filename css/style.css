@@ -100,6 +100,14 @@ margin: 0 auto;
   background-image: url(../img/cart-icon.svg);
 }
 
+.main-header-logo:hover img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.main-header-logo:focus img {
+  opacity: 0.3;
+}
 /* -----    section main index page    ----- */
 
 .main-promo {
@@ -121,9 +129,20 @@ margin: 0 auto;
   text-transform: uppercase;
   padding: 16px 41px;
   border-radius: 2px;
+
+  cursor: pointer;
 }
+
 .learn-more {
   padding: 16px 54px;
+}
+
+.learn-more:hover {
+  background-color: #e74246;
+}
+
+.learn-more:focus {
+  background-color: #d7373b;
 }
 
 .learn-more,
@@ -132,12 +151,35 @@ margin: 0 auto;
   background-color: #fb565a;
 }
 
+.buy-site:hover {
+  background-color: #e74246;
+}
+
+.buy-site:focus {
+  background-color: #d7373b;
+}
+
 .buy-apps {
   background-color: #00ca74;
+}
+.buy-apps:hover {
+  background-color: #00bc6c;
+}
+
+.buy-apps:focus {
+  background-color: #00aa62;
 }
 
 .buy-presentation {
   background-color: #efc84a;
+}
+
+.buy-presentation:hover {
+  background-color: #eab534;
+}
+
+.buy-presentation:focus {
+  background-color: #e5a722;
 }
 
 .slogan {
@@ -193,6 +235,7 @@ margin: 0 auto;
   width: 64px;
   height: 64px;
   margin: 10px 10px;
+  padding-left: 0;
   background-color: #e1e1e1;
   border: 1px;
   border-radius: 50%;
@@ -203,6 +246,13 @@ margin: 0 auto;
   margin: 24px auto;
 }
 
+.social-net:hover {
+  background-color: #e74246;
+}
+
+.social-net:focus {
+  background-color: #d7373b;
+}
 /* ----------          main page          ---------- */
 
 .main-promo-container {
@@ -290,6 +340,9 @@ margin: 0 auto;
 .partners-list:hover img {
   opacity: 1;
 }
+.partners-list:focus img {
+  opacity: 0.1;
+}
 
 .partners-list {
   position: relative;
@@ -314,11 +367,18 @@ margin: 0 auto;
 
 .footer-containter {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+
+  padding: 60px 0;
 }
 
+.footer-text {
+  padding-left: 140px;
+}
+
+.footer-whole {
+  padding-top: 80px;
+}
 /* -----     catalog page     ----- */
 
 .catalog {
