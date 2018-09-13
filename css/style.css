@@ -133,7 +133,7 @@ a {
   cursor: pointer;
 }
 .btn:focus {
-  opacity: 0.3;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .learn-more {
@@ -335,9 +335,11 @@ a {
 
 .partners-list:hover img {
   opacity: 1;
+  cursor: pointer;
 }
-.partners-list:focus img {
+.partners-list:active img {
   opacity: 0.1;
+  cursor: pointer;
 }
 
 .partners-list {
@@ -378,15 +380,18 @@ a {
 
 
 /* -----     slider     ----- */
-.slide-hide,
-.popup-hide {
-  display: none;
-}
+
 .slide {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+.slide-hide,
+.popup-hide {
+  display: none;
+}
+
 
 /* -----     catalog page     ----- */
 
