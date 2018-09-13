@@ -18,8 +18,8 @@ a {
 }
 
 .container {
-width: 1160px;
-margin: 0 auto;
+  width: 1160px;
+  margin: 0 auto;
 }
 
 .visually-hidden {
@@ -131,6 +131,9 @@ margin: 0 auto;
   border-radius: 2px;
 
   cursor: pointer;
+}
+.btn:focus {
+  opacity: 0.3;
 }
 
 .learn-more {
@@ -250,16 +253,10 @@ margin: 0 auto;
   background-color: #e74246;
 }
 
-.social-net:focus {
+.social-net:focus img {
   background-color: #d7373b;
 }
 /* ----------          main page          ---------- */
-
-.main-promo-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .flex-slogan {
   display: flex;
@@ -322,9 +319,8 @@ margin: 0 auto;
 }
 
 .all-partners-list {
-  width: 1160px;
+  width: 1100px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 
@@ -379,6 +375,19 @@ margin: 0 auto;
 .footer-whole {
   padding-top: 80px;
 }
+
+
+/* -----     slider     ----- */
+.slide-hide,
+.popup-hide {
+  display: none;
+}
+.slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* -----     catalog page     ----- */
 
 .catalog {
