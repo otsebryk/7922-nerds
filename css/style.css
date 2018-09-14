@@ -443,6 +443,86 @@ a {
   border-radius: 50%;
 }
 
+/* -----     popup menu     ----- */
+.popup {
+  width: 960px;
+  height: 590px;
+}
+.form-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-title h3 {
+  display: block;
+  width: 90%;
+  font-size: 45px;
+  line-height: 45px;
+}
+.close-form {
+  width: 21px;
+  height: 21px;
+  align-self: center;
+
+  background: url(../img/close-cross.svg) no-repeat;
+  border: none;
+
+  opacity: 0.3;
+}
+.close-form:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.close-form:active {
+  opacity: 0.1;
+}
+
+#username,
+#useremail {
+  width: 360px;
+  height: 50px;
+
+  font-size: 16px;
+  line-height: 18px;
+
+  opacity: 0.5;
+}
+
+textarea {
+  width: 760px;
+  height: 118px;
+  margin-bottom: 47px;
+
+  font-size: 16px;
+  line-height: 18px;
+
+  opacity: 0.5;
+}
+
+#usersubmit {
+  width: 260px;
+  height: 50px;
+
+  text-transform: uppercase;
+  color: #fff;
+
+  background-color: #fb565a;
+  border: 0px;
+}
+
+.user-date {
+  width: 760px;
+  margin-bottom: 60px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.user-date label {
+  font-weight: bold;
+}
+.for-textarea {
+  font-weight: bold;
+}
 
 /* -----     catalog page     ----- */
 
