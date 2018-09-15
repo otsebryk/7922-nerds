@@ -14,7 +14,7 @@
         <ul class="site-navigation">
            <li><a href="#">Студия</a></li>
            <li><a href="#">Клиенты</a></li>
-           <li><a href="catalog.html">Магазин</a></li>
+           <li><a href="catalog.html" class="menu-active">Магазин</a></li>
            <li><a href="#">Контакты</a></li>
         </ul>
         <ul class="cart-navigation">
@@ -26,6 +26,27 @@
       <div class="name-catalog">
         <h1 class="page-title">Магазин готовых шаблонов</h1>
       </div>
+      <section class="result-nav">
+        <div class="container">
+          <div class="result-nav-title">
+            Стоимость:
+          </div>
+          <div class="result-nav-title">
+            Сортировать:
+          </div>
+          <div class="result-nav-title">
+            <span>По цене</span>
+            <span>По типу</span>
+            <span>По названию</span>
+            <button aria-label="sort-down">
+              <img src="img/icon-down-dir.svg" alt="Цена вниз">
+            </button>
+            <button aria-label="sort-up">
+              <img src="img/icon-up-dir.svg" alt="Цена вверх">
+            </button>
+          </div>
+        </div>
+      </section>
       <section class="catalog">
         <div class="container">
           <div class="filters">
@@ -33,7 +54,6 @@
 		<!--  FORM  -->
     <form method="get">
       <fieldset class="filter-item"><!-- Группировка элементов формы -->
-        <legend>Стоимость:</legend> <!-- Заголовок группы элементов формы -->
         <div class="range-filter"> <!-- Обертка для фильтра цены -->
          <div class="range-controls"> <!-- Ползунки -->
            <div class="scale"> <!-- Ширина прогресс бара -->
