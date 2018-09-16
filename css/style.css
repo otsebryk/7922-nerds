@@ -26,9 +26,10 @@ a {
   position: absolute;
 	clip: rect(1px 1px 1px 1px);
 	clip: rect(1px, 1px, 1px, 1px);
-	padding:0;
+
+  padding:0;
 	border:0;
-	height: 1px;
+  height: 1px;
 	width: 1px;
 	overflow: hidden;
 }
@@ -166,6 +167,7 @@ a {
 .buy-apps {
   background-color: #00ca74;
 }
+
 .buy-apps:hover {
   background-color: #00bc6c;
 }
@@ -245,6 +247,7 @@ a {
 .insta img {
   margin: 28px 0 0 30px;
 }
+
 .social-net a:hover {
   background-color: #e74246;
 }
@@ -254,13 +257,14 @@ a {
 }
 /* ----------          main page          ---------- */
 
-
 .page-title {
   margin: 0;
   padding-top: 20px;
   padding: 70px 0 110px 0;
-  line-height: 56px;
+
+  line-height: 55px;
   font-weight: 500;
+  font-size: 55px;
 }
 
 .flex-slogan {
@@ -323,6 +327,16 @@ a {
   background-color: #fb565a;
 }
 
+.our-stat caption {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+
+.table-data-percents tr {
+  margin-bottom: 27px;
+}
+
 .all-partners-list {
   width: 1100px;
   display: flex;
@@ -342,6 +356,7 @@ a {
   opacity: 1;
   cursor: pointer;
 }
+
 .partners-list:active img {
   opacity: 0.1;
   cursor: pointer;
@@ -370,7 +385,10 @@ a {
 
 .footer-containter {
   position: relative;
+  display: flex;
+  justify-content: flex-start;
 }
+
 .contact-data {
   position: absolute;
   left: 0;
@@ -384,6 +402,7 @@ a {
   color: #666;
   line-height: 18px;
 }
+
 .contacts {
   font-size:18px;
   line-height: 30px;
@@ -393,6 +412,7 @@ a {
   margin: 0 0 24px 0;
   padding: 0;
 }
+
 .contact-data-text {
   margin: 0 0 20px 0;
   padding: 0;
@@ -420,7 +440,6 @@ a {
   padding-top: 80px;
 }
 
-
 /* -----     slider     ----- */
 
 .slide {
@@ -433,6 +452,7 @@ a {
 .popup-hide {
   display: none;
 }
+
 .slider-controls {
   position: absolute;
   left: 50%;
@@ -440,10 +460,12 @@ a {
   z-index: 100;
   width: 160px;
   height: 18px;
+
   text-align: center;
   font-size: 0;
   transform: translateX(-50%);
 }
+
 .slider-controls i {
   position: relative;
   display: inline-block;
@@ -454,6 +476,7 @@ a {
   border-radius: 50px;
   cursor: pointer;
 }
+
 .slider-controls i::after {
   content: '';
   position: absolute;
@@ -465,6 +488,7 @@ a {
   background-color: #fff;
   border-radius: 50%;
 }
+
 .slider-controls .active::before {
   content: '';
   position: absolute;
@@ -494,21 +518,26 @@ a {
   height: 590px;
   background-color: #fff;
 }
+
 .form-wrap {
   width: 760px;
 }
+
 .form-wrap form {
   width:100%;
 }
+
 .form-title {
   display: flex;
   justify-content: space-between;
   margin-left: 100px;
   margin-right: 90px
 }
+
 .form-title h3 {
   display: block;
   width: 90%;
+
   font-size: 45px;
   line-height: 45px;
 }
@@ -520,7 +549,6 @@ a {
   height: 21px;
   align-self: center;
 
-
   background: url(../img/close-cross.svg) no-repeat;
   border: none;
 
@@ -531,6 +559,7 @@ a {
   opacity: 1;
   cursor: pointer;
 }
+
 .close-form:active {
   opacity: 0.1;
 }
@@ -540,7 +569,6 @@ a {
   width: 360px;
   height: 50px;
   padding-left: 5px;
-
 
   font-size: 16px;
   line-height: 18px;
@@ -579,12 +607,11 @@ a {
   width: 760px;
   margin-bottom: 60px;
   padding-left: 100px;
-
 }
 .user-date label {
   font-weight: bold;
-
 }
+
 .for-textarea {
   font-weight: bold;
   margin-left: 100px;
@@ -597,6 +624,7 @@ a {
   justify-content: space-between;
   margin-bottom: 60px;
 }
+
 .menu-active {
   position: relative;
 }
@@ -611,22 +639,27 @@ a {
   height: 2px;
   background-color: #fb565a;
 }
+
 .result-nav {
   text-transform: uppercase;
 }
-.result-nav {
+
+.result-nav-title{
   width: 400px;
   font-size: 18px;
   font-weight: 700;
 }
+
 .result-nav-sort {
   width: 360px;
   font-size: 14px;
-  font-weight: 300px;
+  font-weight: 300;
 }
+
 .result-nav-sort span {
   margin-right: 20px;
 }
+
 .result-nav-sort button {
   background-color: #fff;
   border: none;
@@ -634,16 +667,19 @@ a {
   margin-left:18px;
   cursor: pointer;
 }
+
 .result-nav-sort span:hover,
 .result-nav-sort button:hover {
   opacity: 0.5;
 }
+
 .results-nav-sort span.active,
 .results-nav-sort span:active,
 .results-nav-sort button.active,
 .results-nav-sort button:active {
   opacity: 1;
 }
+
 .filter-submit input {
   width: 100%;
   border: 1px solid#eee;
@@ -653,11 +689,13 @@ a {
   padding: 18px 0;
   margin-top: 48px;
 }
+
 .filter-grid {
   border: none;
   padding: 0;
   margin-top: 50px;
 }
+
 .filter-uppercase {
   font-size: 18px;
   line-height: 18px;
@@ -665,6 +703,7 @@ a {
   text-transform: uppercase;
   margin-bottom: 12px;
 }
+
 .filter-grid label {
   display: block;
   position: relative;
@@ -672,6 +711,7 @@ a {
   padding-left: 36px;
   line-height: 42px;
 }
+
 input[type=radio] + label::before {
   content:'';
   position: absolute;
@@ -682,6 +722,7 @@ input[type=radio] + label::before {
   left: 0;
   border-radius: 50%;
 }
+
 input[type=radio]:checked + label::after {
   content: '';
   position: absolute;
@@ -692,6 +733,7 @@ input[type=radio]:checked + label::after {
   border-radius: 50px;
   background-color: #a5a5a5;
 }
+
 input[type=checkbox] + label::before {
   content: '';
   position: absolute;
@@ -701,14 +743,17 @@ input[type=checkbox] + label::before {
   left: 0;
   background-image: url(../img/checkbox-off.svg);
 }
+
 input[type=checkbox]:checked + label::before {
   width: 27px;
   background-image: url(..//img/checkbox-on.svg);
 }
+
 .form-catalog {
   display: flex;
   justify-content: space-between;
 }
+
 .catalog-list {
   width: 760px;
   flex-wrap: wrap;
@@ -726,6 +771,7 @@ input[type=checkbox]:checked + label::before {
   margin-bottom: 80px;
   position: relative;
 }
+
 .catalog-item a {
   display: block;
 }
@@ -741,9 +787,11 @@ input[type=checkbox]:checked + label::before {
   background-image: url(../img/browser.svg);
   opacity: 0.1;
 }
+
 .catalog-item:hover a::before {
   opacity: 1;
 }
+
 .themes-more {
   background-color: #e1e1e1;
   width: 360px;
@@ -755,6 +803,7 @@ input[type=checkbox]:checked + label::before {
   left: 0;
   padding: 30px 0 47px 0;
 }
+
 .themes-more-title {
   color: #000;
   font-size: 18px;
@@ -762,25 +811,31 @@ input[type=checkbox]:checked + label::before {
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+
   margin: 0;
   padding: 0 0 16px 0;
 }
+
 .themes-more-text {
   line-height: 18px;
   color: #666;
   text-align: center;
+
   width: 240px;
   margin: 0 0 29px 0;
   padding: 0;
 }
+
 .themes-more-price {
   margin: 0 auto;
   padding: 13px 60px;
   background-color: #d7373b;
 }
+
 .catalog-item:hover > .items-more {
   display: flex;
 }
+
 .pagination-list {
   display: flex;
   justify-content: flex-end;
@@ -800,6 +855,7 @@ input[type=checkbox]:checked + label::before {
   padding: 0 20px;
   align-items: center;
 }
+
 .pagination-item-current {
   background-color: #fff;
 }
