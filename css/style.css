@@ -776,6 +776,7 @@ a {
 .results-nav-sort-span a:active,
 .results-nav-sort-buttons a.active,
 .results-nav-sort-buttons a:active {
+  color: #000;
   opacity: 1;
 }
 
