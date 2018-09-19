@@ -772,6 +772,12 @@ a {
   margin-left: 18px;
 }
 
+.results-nav-sort-span a,
+.results-nav-sort-buttons a {
+  color: #000;
+  opacity: 0.3;
+}
+
 .results-nav-sort-span a.active,
 .results-nav-sort-span a:active,
 .results-nav-sort-buttons a.active,
@@ -783,11 +789,6 @@ a {
 .result-nav-sort a:hover,
 .result-nav-sort a:hover {
   opacity: 0.5;
-}
-
-.active a:active,
-.active a:focus {
-  opacity: 1;
 }
 
 .filter-submit input {
