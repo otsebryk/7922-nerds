@@ -772,9 +772,11 @@ a {
   margin-left: 18px;
 }
 
-.result-nav-sort a,
-.result-nav-sort a {
-  opacity: 0.3;
+.results-nav-sort-span a.active,
+.results-nav-sort-span a:active,
+.results-nav-sort-buttons a.active,
+.results-nav-sort-buttons a:active {
+  opacity: 1;
 }
 
 .result-nav-sort a:hover,
