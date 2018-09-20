@@ -214,11 +214,11 @@ a {
   margin-bottom: 27px;
   font-size: 55px;
   line-height: 55px;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .flex-slogan-text p {
-  width: 86%;
+  width: 100%;
   margin-bottom: 52px;
 }
 
@@ -359,6 +359,7 @@ a {
   margin-left: 1px;
   font-size: 45px;
   line-height: 45px;
+  font-weight: 500
 }
 
 .about-company-brief p {
@@ -761,7 +762,7 @@ a {
 }
 
 .results-nav-sort-span a{
-  margin-right: 20px;
+  margin-right: 22px;
   padding: 0;
   text-transform: uppercase;
   cursor: pointer;
