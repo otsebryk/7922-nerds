@@ -535,9 +535,9 @@ a {
   height: 190px;
   position: absolute;
   top: -340px;
-  left: 50%;
+  left: 59.7%;
   background-image: url(../img/marker.png);
-  transform: translateX(-50%);
+  transform: translateX(-40.3%);
 }
 
 .footer-text {
@@ -778,7 +778,7 @@ a {
 
 .results-nav-sort-buttons a{
   padding: 0;
-  margin-left: 18px;
+  margin-left: 17px;
 }
 
 .results-nav-sort-span a,
@@ -1019,7 +1019,7 @@ input[type="checkbox"]:checked + label::before {
 
 .range-filter {
   width: 260px;
-  margin-top: 49px;
+  margin-top: 51px;
 }
 
 .filter-item legend {
@@ -1100,4 +1100,7 @@ input[type="checkbox"]:checked + label::before {
 
 .max-price {
   text-align: right;
+}
+.result-nav-title-price {
+  padding-top: 3px; 
 }
