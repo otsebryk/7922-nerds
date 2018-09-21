@@ -347,6 +347,13 @@ a {
   width: 90%;
   letter-spacing: 0.15px;
 }
+.offers-site p {
+  letter-spacing: -0.2px;
+}
+
+.offers-presentation p {
+  letter-spacing: -0.1px;
+}
 
 .about-company-container {
   padding: 27px 0 46px 0;
@@ -381,6 +388,7 @@ a {
 .about-company-list li {
   position: relative;
   margin-bottom: 25px;
+  letter-spacing: -0.1px;
 }
 
 .about-company-list li::before {
@@ -421,7 +429,7 @@ a {
 
 .partners-list {
   position: relative;
-  width: 300px;
+  width: 305px;
   height: 100px;
   display: flex;
   align-items: center;
